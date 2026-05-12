@@ -35,4 +35,11 @@ int main() {
     Student s2("Asroni");
     Student s3("Andi Kurniawan");
     Student s4("Joko Punho");  
+
+    s1.printAll();
+    s2.printAll();
+    s3.printAll();
+    s4.printAll();
+
+    return 0;
 }
