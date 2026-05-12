@@ -54,4 +54,9 @@ int main() {
     s2.printAll();
     s3.printAll();
     s4.printAll();
+
+    cout << "Current Student ID : " << Student::getStudentID() << endl;
+    system("pause");
+
+    return 0;
 }
