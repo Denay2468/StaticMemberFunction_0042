@@ -21,4 +21,21 @@ public:
     static int getStudentID() {
         return studentID;  
     }
+
+    Student(string pname) : name(pname) {
+        setID();
+    };
 };
+
+int Student::studentID = 0;
+
+
+void Student::setID() {
+    id = ++studentID;
+}
+
+void Student::printAll() {
+    cout << "ID = " << id << endl;
+    cout << "Name = " << name << endl;
+    cout << endl;
+}
