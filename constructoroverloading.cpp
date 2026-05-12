@@ -34,3 +34,15 @@ void Student::print(){
     cout << endl << "Student ID = " << studentId << endl;
     cout << "Name = " << name << endl;
 }
+
+int main() {
+    Student stu1(102030);               
+    Student stu2("Andi");               
+    Student stu3(010203, "Santi");      
+
+    cout << "Student 1:"; stu1.print();
+    cout << "Student 2:"; stu2.print();
+    cout << "Student 3:"; stu3.print();
+
+    return 0;
+}
