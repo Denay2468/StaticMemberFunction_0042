@@ -14,7 +14,6 @@ public:
     void setID();
     void printAll();
 
-    // creating a static function
     static void setStudentID(int pStudentID) {
         studentID = pStudentID;
     };
