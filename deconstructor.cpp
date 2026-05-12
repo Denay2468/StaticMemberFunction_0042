@@ -26,3 +26,21 @@ Number::~Number(){ // Destructor
     delete[] arr;
     cout << "Array Address Has Been Released" << endl;
 }
+
+void Number::printData()
+{
+    for (int i = 1; i <= length; i++)
+    {
+        cout << i << " = " << arr[i] << endl;
+    }
+}
+
+void Number::fillData()
+{
+    for (int i = 1; i <= length; i++)
+    {
+        cout << i << " = ";
+        cin >> arr[i];
+    }
+    cout << endl;
+}
