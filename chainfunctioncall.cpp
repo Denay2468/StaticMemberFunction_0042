@@ -12,3 +12,8 @@ public:
     }
 };
 
+int main(){
+    book mybook;
+    cout << mybook.settitle("Mathematics").gettitle();
+    return 0;
+}
