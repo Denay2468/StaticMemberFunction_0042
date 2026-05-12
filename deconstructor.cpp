@@ -44,3 +44,12 @@ void Number::fillData()
     }
     cout << endl;
 }
+
+int main()
+{
+    Number learnCpp(3);                        
+    Number *ptrLearnCpp = new Number(5);       
+    delete ptrLearnCpp;                        
+
+    return 0;
+}
