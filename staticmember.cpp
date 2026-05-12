@@ -3,19 +3,19 @@ using namespace std;
 
 class Book
 {
-    string title;  // private member variable
+    string title;  
 
 public:
     string setget(string title)
     {
-        this->title = title;  // assigns the parameter 'title' to the member variable
-        return this->title;   // returns the member variable title
+        this->title = title;  
+        return this->title;   
     }
 };
 
 int main()
 {
-    Book myBook;  // creates an object of class Book
+    Book myBook;  
     cout << myBook.setget("Mathematics");
     return 0;
 }
