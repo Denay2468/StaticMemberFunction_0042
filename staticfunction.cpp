@@ -39,3 +39,19 @@ void Student::printAll() {
     cout << "Name = " << name << endl;
     cout << endl;
 }
+
+int main() {
+    
+    Student s1("Sri Dadi");
+    Student s2("Budi Jatmiko");
+   
+    Student::setStudentID(9);
+
+    Student s3("Andi Janu");
+    Student s4("Joko Wahono");
+
+    s1.printAll();
+    s2.printAll();
+    s3.printAll();
+    s4.printAll();
+}
