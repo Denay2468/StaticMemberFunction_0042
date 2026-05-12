@@ -13,3 +13,16 @@ public:
     void printData();
     void fillData();
 };
+
+Number::Number(int i){ // Constructor
+    length = i;
+    arr = new int[i];
+    fillData();
+}
+
+Number::~Number(){ // Destructor
+    cout << endl;
+    printData();
+    delete[] arr;
+    cout << "Array Address Has Been Released" << endl;
+}
